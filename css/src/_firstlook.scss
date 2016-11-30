@@ -1,0 +1,59 @@
+#firstlook{
+  position:relative;
+  .container{
+    width: 100%;
+    padding: 0;
+    img{
+      width: 100%;
+    }
+    header{
+      width: 100%;
+      border-bottom: 0.1rem solid darken($dominant-color,70%);
+      position: absolute;
+      top: 0;
+      padding-top: 0.5rem;
+      #logo{
+        display: inline-block;
+        font-family: 'Lobster', cursive;
+        font-size: 2.2rem;
+        color: $dominant-bgcolor2;
+        padding: 0.5em 5em;
+        span{
+          color: $smaller-font-color;
+          font-size: 1rem;
+        }
+      }
+      nav {
+        display: inline-block;
+        line-height: 1em;
+        padding: 0.5em 1em;
+        a{
+          font-size: 1.3rem;
+          font-weight: bold;
+          line-height: 3.5em;
+          padding: 1em 0;
+          margin-left: 1.5em;
+          color: darken($dominant-color,3%);
+          text-decoration: none;
+          &.active{
+            border-bottom: 0.2rem solid $dominant-color;
+            padding-bottom: 1.8em;
+          }
+        }
+        .search-box{
+          line-height: 1rem;
+          padding-left: 2em;
+          font-size: 1.3rem;
+          margin-left: 2em;
+          background-image: url(../images/search.png);
+          background-repeat: no-repeat;
+          background-position: 96% 50%;
+          background-size: 26px 26px;
+        }
+      }
+    }
+    .btn-custom{
+      padding: 0.8em 3.5em;
+    }
+  }
+}

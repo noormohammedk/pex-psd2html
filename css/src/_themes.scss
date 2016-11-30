@@ -1,0 +1,47 @@
+$dominant-color: #fff;
+$smaller-font-color: #8E878E;
+$dominant-bgcolor1: #313B50;
+$dominant-bgcolor2: #F72B62;
+$button-color: #9A00CD;
+
+.btn-custom {
+  background-color: $button-color;
+  color: $dominant-color;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.btn-round {
+  border-radius: 3em;
+}
+
+.btn {
+  padding: 1em 3.5em;
+}
+.search-box{
+  border: 1px solid transparent;
+  padding: 1em 5em 1em 2em;
+  font-size: 1rem;
+  border-radius: 3em;
+}
+
+.small-tags{
+  font-size: 1rem;
+  font-weight: 100;
+  color: darken($dominant-color,10%);
+  padding:1em 2em;
+}
+
+.tagline-wrapper{
+  position: absolute;
+  top: 18em;
+  left: 8em;
+  width: 30%;
+  text-align: right;
+   .tagline{
+     line-height: 1.3em;
+     color: darken($dominant-color,3%);
+     font-size: 3em;
+     padding-bottom: 0.6em;
+   }
+ }
