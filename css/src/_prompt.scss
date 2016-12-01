@@ -2,12 +2,14 @@
   position: relative;
   z-index: 1;
   top: -5em;
+  margin-bottom: -5.2em;
   .container{
-    width:100%;
+    width: 100%;
     padding: 0;
     img{
+      width: 100%;
       padding: 0;
-      margin: 0;
+      margin-left: 0;
     }
     .tagline-wrapper{
       top:6em;

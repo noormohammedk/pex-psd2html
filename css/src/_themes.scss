@@ -45,3 +45,20 @@ $button-color: #9A00CD;
      padding-bottom: 0.6em;
    }
  }
+
+ .second-heading{
+  color: $dominant-bgcolor1;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+ .text-secondclass{
+   font-size: 1.3rem;
+   line-height: 1.6;
+   color: $dominant-bgcolor1;
+ }
+ .text-thirdclass{
+   font-size: 1rem;
+   color: $dominant-bgcolor1;
+   line-height: 1.7rem;
+ }

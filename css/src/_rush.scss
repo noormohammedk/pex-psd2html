@@ -1,0 +1,20 @@
+#rush{
+  background-image: url(../images/pex4.png);
+  text-align: center;
+  padding: 6em;
+  h4{
+    color: $dominant-color;
+    padding: 1.5em;
+    padding-bottom: 0.2em;
+    font-size: 3rem;
+  }
+  .text-secondclass{
+    margin: 0 auto;
+    width: 50%;
+    color: lighten($button-color, 30%);
+    padding-bottom: 2em;
+  }
+  .small-tags{
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,25 @@
+#features2{
+  .container{
+    display: flex;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    .img{
+      float: left;
+    }
+    .text-holder{
+      padding: 3em 0;
+      padding-left: 8em;
+      width: 51%;
+      margin-left: 3em;
+    }
+
+    .second-heading{
+      padding-top: 2rem;
+    }
+
+    .text-secondclass{
+      padding-bottom: 0.4em;
+    }
+  }
+}
