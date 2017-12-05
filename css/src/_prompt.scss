@@ -1,8 +1,8 @@
 #prompt{
-  position: relative;
-  z-index: 1;
-  top: -5em;
-  margin-bottom: -5.2em;
+  background-image: url(../images/pex2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3em 0;
   .container{
     width: 100%;
     padding: 0;
@@ -14,32 +14,53 @@
     .tagline-wrapper{
       top:6em;
       left: 0;
-      width: 100%;
-      text-align: center;
-      padding-top: 2em;
-      .tagline{
-        font-weight: light;
-        font-size: 4rem;
-        padding: 0;
-        text-align: center;
-        color: darken($dominant-color,3%);
-      }
     }
     .small-tags{
-      width: 35%;
-      margin: 0 auto;
-      padding: 0;
-      font-size: 1.5rem;
       font-weight: lighter;
       color: darken($dominant-color,3%);
       line-height: 2.5rem;
     }
-    .btn-custom{
-      margin-top: 2em;
-      padding: 0.7em 6em;
-      background-color: $dominant-color;
-      color: $dominant-bgcolor2;
-      font-size: 1.7rem;
-    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  #prompt{
+    position: static;
+    margin: 0;
+    border-bottom: 5px solid #d9d9d9;
+    text-align: center;
+    padding: 1em 2em;
+  }
+  #prompt .container img {
+    display: none;
+  }
+  #prompt .container .tagline-wrapper {
+    padding-top: 0;
+    position: static;
+  }
+  #prompt .container .tagline-wrapper .tagline {
+    line-height: 1.3em;
+    color: #fff;
+    font-size: 14vw;
+    padding: 0.5em 1em;
+    border: 2px solid #fff;
+    border-radius: 0.5em;
+  }
+  #prompt .container input.btn-custom2{
+    border-radius: 2px;
+    border: 1px solid #fff;
+  }
+
+  #prompt .container .small-tags {
+    display: none;
+  }
+
+  #prompt .container .btn-custom {
+    background-color: #fff;
+    color: #F72B62;
+    font-size: 3rem;
+    border: 1px solid #F72B62;
+    padding: 1em 1em;
+    margin-top: 1em;
   }
 }

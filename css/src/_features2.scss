@@ -8,9 +8,6 @@
       float: left;
     }
     .text-holder{
-      padding: 3em 0;
-      padding-left: 8em;
-      width: 51%;
       margin-left: 3em;
     }
 
@@ -21,5 +18,37 @@
     .text-secondclass{
       padding-bottom: 0.4em;
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #features2{
+    border-bottom:5px solid #d9d9d9;
+    padding: 1em 0;
+  }
+
+  #features2 .container img{
+    display: none;
+  }
+
+  #features2 .container .text-holder {
+    padding: 0;
+    padding-left: 0;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #features2 .container .second-heading {
+    padding-top: 0;
+    font-size: 4rem;
+    padding-bottom: 0.4em;
+  }
+
+  #features2 .container .text-secondclass {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+  .text-thirdclass {
+    display: none;
   }
 }

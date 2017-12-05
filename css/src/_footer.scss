@@ -1,0 +1,21 @@
+#footer{
+  background-color: $dominant-bgcolor1;
+  .container{
+    p.small-tags{
+      color: $dominant-color;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footer{
+    padding: 1em;
+    border-bottom:5px solid #d9d9d9;
+  }
+  #footer .container{
+    padding: 0;
+  }
+  #footer .container .small-tags{
+    font-size: 1rem;
+  }
+}

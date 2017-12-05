@@ -30,3 +30,12 @@
   border-top: 6px solid $dominant-bgcolor1;
   border-left: 6px solid $dominant-bgcolor1;
 }
+
+.curve {
+  display: none;
+}
+@media screen and (max-width: 480px){
+  .curve {
+    display: none;
+  }
+}

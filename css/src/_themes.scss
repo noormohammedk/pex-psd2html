@@ -8,57 +8,50 @@ $button-color: #9A00CD;
   background-color: $button-color;
   color: $dominant-color;
   font-size: 1em;
-  font-weight: bold;
-}
-
-.btn-round {
   border-radius: 3em;
+  padding: 0.5em 0.5em;
+  border: none;
+  outline: transparent;
 }
 
-.btn {
-  padding: 1em 3.5em;
+.btn-custom2{
+  background-color: #fff;
+  color: #F72B62;
+  font-size: 2rem;
+  border: 1px solid #F72B62;
+  padding: 0.5em 0.5em;
 }
+
 .search-box{
+  width: 35%;
   border: 1px solid transparent;
-  padding: 1em 5em 1em 2em;
-  font-size: 1rem;
-  border-radius: 3em;
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 0.5rem;
+  border-radius: 3rem;
+  margin-top: 0.1rem;
 }
 
 .small-tags{
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 100;
   color: darken($dominant-color,10%);
-  padding:1em 2em;
+  width: fit-content;
+  height: fit-content;
 }
 
-.tagline-wrapper{
-  position: absolute;
-  top: 18em;
-  left: 8em;
-  width: 30%;
-  text-align: right;
-   .tagline{
-     line-height: 1.3em;
-     color: darken($dominant-color,3%);
-     font-size: 3em;
-     padding-bottom: 0.6em;
-   }
- }
-
- .second-heading{
+.second-heading{
   color: $dominant-bgcolor1;
   font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
- }
- .text-secondclass{
-   font-size: 1.3rem;
-   line-height: 1.6;
-   color: $dominant-bgcolor1;
- }
- .text-thirdclass{
-   font-size: 1rem;
-   color: $dominant-bgcolor1;
-   line-height: 1.7rem;
- }
+}
+.text-secondclass{
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: $dominant-bgcolor1;
+}
+.text-thirdclass{
+  font-size: 1rem;
+  color: $dominant-bgcolor1;
+  line-height: 1.7rem;
+}

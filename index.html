@@ -2,84 +2,137 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>pex-psd2html</title>
-  <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <section id="firstlook">
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="col-xs-8 col-sm-5 col-md-4 navbar-header" id="nav-head">
+          <a href="#"id="logo">pex<span class="small-tags">Photoshop Website template</span></a>
+        </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="col-sm-7 col-md-8 navbar-collapse collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <a href="#" class="active">About</a>
+            <a href="#">How it Works</a>
+            <a href="#">Services</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+          </ul>
+          <input type="text" name="search" placeholder="Search Website" id="input-first">
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar ends here -->
+    <!-- tagline starts here -->
     <div class="container">
-      <img src="images/pex.jpg" alt="">
-      <header>
-        <p id="logo">pex <span>Photoshop Website template</span></p>
-        <nav class="pull-right">
-          <a href="#" class="active">About</a>
-          <a href="#">How it Works</a>
-          <a href="#">Services</a>
-          <a href="#">FAQ</a>
-          <a href="#">Contact</a>
-          <input type="text" name="search" value="Search Website" class="search-box pull-right">
-        </nav>
-      </header>
-      <div class="tagline-wrapper">
-        <h1 class="tagline">Designs your eyeballs will thank you for</h1>
-        <input type="button" name="start" value="Get Started Today" class= "btn-custom btn btn-round" id="first-btn">
-        <p class="small-tags">Lorem ipsum dolor sit amet consectetur</p>
+      <div class="tagline-wrapper col-md-6">
+        <h1 class="tagline col-xs-3">Designs your eyeballs will thank you for.</h1>
+        <input type="button" name="start" value="Get Started Today" class= "btn-custom col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-6" id="first-btn">
+        <p class="small-tags" id="btn-tag">Lorem ipsum dolor sit amet, consectetur</p>
       </div>
     </div>
   </section>
+  <!-- section first look ends here -->
+  <!-- section features starts here -->
   <section id="features">
     <div class="container">
       <div class="row">
-        <article class="feature-disc col-xs-6 col-md-6">
+        <article class="feature-disc col-sm-3 col-md-6">
           <h4 class="feature-heads">A Fantastic Heading</h4>
           <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </article>
-        <article class="feature-disc col-xs-6 col-md-6">
+        <article class="feature-disc col-sm-3 col-md-6">
           <h4 class="feature-heads">Good Day Blokes</h4>
-          <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          <p class="discription">Lorem ipsum dslor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </article>
-        <article class="feature-disc col-xs-6 col-md-6">
+        <article class="feature-disc col-sm-3 col-md-6">
           <h4 class="feature-heads">Blaz Robar for President</h4>
           <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </article>
-        <article class="feature-disc col-xs-6 col-md-6">
+        <article class="feature-disc col-sm-3 col-md-6">
           <h4 class="feature-heads">Vote for Robar</h4>
           <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </article>
       </div>
     </div>
   </section>
+  <!-- section features ends here -->
+  <!-- curve starts here -->
   <div class="curve"></div>
+  <!-- curve ends here -->
+  <!-- section prompt starts here -->
   <section id="prompt">
     <div class="container">
-      <img src="images/pex2.jpg" alt="">
       <div class="tagline-wrapper">
         <h3 class="tagline">Wicked & whack, bang bang boo!</h3>
         <p class="small-tags">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
-        <input type="button" value="Get Started Today" class="btn-custom btn btn-round">
+        <input type="button" value="Get Started Today" class="btn-custom2">
       </div>
     </div>
   </section>
+  <!-- section features2 starts here -->
   <section id="features2">
     <div class="container">
-        <img src="images/pex3.jpg" alt="">
-        <div class="text-holder">
-          <h4 class="second-heading">A Heading is what you need here.</h4>
-          <p class="text-secondclass">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p class="text-thirdclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+      <img src="images/pex3.jpg" alt="">
+      <div class="text-holder">
+        <h4 class="second-heading col-xs-12">A Heading is what you need here.</h4>
+        <p class="text-secondclass col-xs-12">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="text-thirdclass col-xs-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
   </section>
+  <!-- section rush starts here -->
   <section id="rush">
-    <h4>Experience the rush today</h4>
-    <p class="text-secondclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    <input type="button" name="rush" value="Get Started Today" class="btn-custom btn btn-round">
+   <div class="container">
+    <h4 class="col-xs-12">Experience the rush today</h4>
+    <p class="text-secondclass col-xs-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <input type="button" name="rush" value="Get Started Today" class="btn-custom btn btn-round col-xs-12">
     <p class="small-tags">Lorem ipsum dolor sit amet consectetur</p>
+   </div>
+  </section>
+  <!-- section lorem starts here -->
+  <section id="lorem">
+    <img src="images/pex6.png" alt="">
+  </section>
+  <!-- section watch starts here -->
+  <section id="watch">
+    <div class="container">
+      <div class="content col-xs-12">
+        <h4 class="second-heading col-xs-12">A Heading is what you need here.</h4>
+        <p class="text-secondclass col-xs-12">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="text-thirdclass col-xs-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <img src="images/pex5.png" alt="">
+    </div>
+  </section>
+  <!-- section contact starts here -->
+  <section id="contact">
+    <div class="container">
+      <h4 class="second-heading col-xs-offset-1 col-xs-11">Get in Touch</h4>
+      <p class="text-thirdclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#" class="text-thirdclass" id="mail">help@yomuma.com</a>
+    </div>
+  </section>
+  <!-- section footer starts here -->
+  <section id="footer">
+    <div class="container">
+      <p class="small-tags">psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
   </section>
 </body>
 </html>
