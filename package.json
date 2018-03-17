@@ -1,0 +1,22 @@
+{
+  "name": "pex-psd2html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noormohammedk/pex-psd2html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noormohammedk/pex-psd2html/issues"
+  },
+  "homepage": "https://github.com/noormohammedk/pex-psd2html#readme",
+  "devDependencies": {
+    "watch-http-server": "^0.7.6"
+  }
+}
