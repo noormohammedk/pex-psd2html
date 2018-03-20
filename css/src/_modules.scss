@@ -1,0 +1,108 @@
+
+
+body {
+
+  .tagline-box { //tagline style starts here
+    padding-right: 50%;
+    padding-top: 15%;
+    text-align: right;
+    color: $white;
+    font: normal normal $noto-sans;
+
+    .tagline {
+      margin-bottom: 40px;
+      font-weight: 400;
+      font-size: 3rem;
+    }
+    .tagline-button {
+      margin-right: 10px;
+      background-color: $purple;
+      border-radius: 25px;
+      border: none;
+      color: inherit;
+      padding: 15px 0;
+      font-size: 1rem;
+      font-weight: bold;
+      outline: none;
+    }
+    .oneliner {
+      color: $grey;
+      font-size: 0.8rem;
+      padding-right: 30px;
+      margin-top: 10px;
+    }
+  }
+
+
+
+  #eyeballs {  //section eyeball's style starts here
+
+    .nav-transparent { //navbar style starts here
+      background-color: rgba(0,0,0,0);
+      border: 0 solid $white;
+      border-bottom-width: 1px;
+      border-radius: 3px;
+      border-color: white;
+      border-radius: 0;
+
+      .navbar-header a {
+        display: block;
+        font: normal normal bold 2rem $lobster;
+        position: relative;
+        color: $pinkish;
+        span{
+          font-size: 1rem;
+          font-weight: 400;
+          color: $grey;
+          position: absolute;
+          top: 15px;
+        }
+      }
+
+      .nav-menu {
+        font: normal normal bold 1rem $noto-sans;
+        color: $white;
+      }
+
+      input{
+        padding: 5px 0 5px 10px;
+        margin-top: 13px;
+        outline: none;
+        border:none;
+        font: normal normal 400 0.9rem $noto-sans;
+      }
+    } //navbar style ends here
+
+    //tagline-box style ends here
+  } //section #eyeballs styles end here
+
+  //section #fantastic styles start here
+
+  #fantastic {
+    article.heading {
+      font: normal normal 400 0.8rem $noto-sans;
+      padding: 0 100px;
+      .content{
+        color: $grey;
+      }
+    }
+  }
+
+  #wicked .tagline-box {
+    padding: 0 25%;
+    text-align: center;
+    .tagline {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    .oneliner {
+      margin: 20px 0px;
+      padding: 0 100px;
+      color: $white;
+    }
+    .tagline-button {
+      background-color: $white;
+      color: $pinkish;
+    }
+  }
+}

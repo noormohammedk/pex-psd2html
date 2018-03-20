@@ -1,1 +1,50 @@
+body {
 
+  .backgroundimage-sections {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:445px;
+  }
+
+  .noimage-sections {
+    padding: 20px;
+  }
+
+  #eyeballs {
+    background-image: url(../../images/pex.jpg);
+    height: 51vw;
+  }
+
+
+  #fantastic {
+    background-color: $dark-grey;
+    color: $white;
+    padding:50px 0;
+    padding-bottom: 120px;
+  }
+
+  #curve {
+    height: 40px;
+  }
+
+  #wicked {
+    background-image: url(../../images/pex2.jpg);
+    padding-top: 90px;
+    text-align: center;
+    color: $white;
+  }
+
+  #rush {
+    background-image: url(../../images/pex4.png);
+  }
+
+  #watch-heading {
+    float:left;
+    clear: both;
+  }
+
+  #photography {
+    background-image: url(../../images/pex6.png);
+  }
+}
