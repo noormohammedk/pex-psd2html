@@ -1,9 +1,14 @@
 html {
   font-size: 100%;
 
+
   body {
     font-size: 14px;
     font-size: 1.4rem;
+
+    img {
+      padding: 0;
+    }
 
     h1 {
       font-size: 24px;
@@ -20,6 +25,6 @@ html {
       font-family: $noto-sans;
       border-radius: 50px;
       padding: 10px 0;
-    }  
+    }
   }
 }

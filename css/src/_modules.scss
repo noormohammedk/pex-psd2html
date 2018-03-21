@@ -2,6 +2,10 @@
 
 body {
 
+   .no-padding {
+     padding: 0;
+   }
+
   .tagline-box { //tagline style starts here
     padding-right: 50%;
     padding-top: 15%;
@@ -14,18 +18,25 @@ body {
       font-weight: 400;
       font-size: 3rem;
     }
+
     .tagline-button {
       margin-right: 10px;
       background-color: $purple;
+      color: inherit;
       border-radius: 25px;
       border: none;
-      color: inherit;
       padding: 15px 0;
       font-size: 1rem;
       font-weight: bold;
       outline: none;
     }
+
+    .btn-tags {
+
+    }
+
     .oneliner {
+      line-height: 20px;
       color: $grey;
       font-size: 0.8rem;
       padding-right: 30px;
@@ -34,9 +45,39 @@ body {
   }
 
 
+  .noimage-sections{
+    color: $white;
+    font-family: $noto-sans;
+    font-style: normal;
+    .content{
+      font-size: 0.8rem;
+      color: $grey;
+    }
+  }
+
+  .w-box {
+    .c-box {
+      line-height: 24px;
+      .heading {
+        font-weight: bolder;
+        margin: 5px 0;
+      }
+      background-color: $white;
+      color: $dark-grey;
+      font-size: 1rem;
+      padding: 85px 140px 50px 45px;
+      .oneliner {
+        line-height: 20px;
+        color: $dark-grey;
+        font-size: 0.8rem;
+        padding-right: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
 
   #eyeballs {  //section eyeball's style starts here
-
+    margin-top: -90px;
     .nav-transparent { //navbar style starts here
       background-color: rgba(0,0,0,0);
       border: 0 solid $white;
@@ -44,7 +85,6 @@ body {
       border-radius: 3px;
       border-color: white;
       border-radius: 0;
-
       .navbar-header a {
         display: block;
         font: normal normal bold 2rem $lobster;
@@ -76,33 +116,60 @@ body {
     //tagline-box style ends here
   } //section #eyeballs styles end here
 
-  //section #fantastic styles start here
 
-  #fantastic {
-    article.heading {
-      font: normal normal 400 0.8rem $noto-sans;
-      padding: 0 100px;
-      .content{
-        color: $grey;
+
+  .backgroundimage-sections {
+    padding-top: 90px;
+    .tagline-box {
+      padding: 0 25%;
+      text-align: center;
+      .tagline {
+        margin-bottom: 10px;
+        font-size: 2rem;
+      }
+      .oneliner {
+        margin: 20px 0px;
+        padding: 0 100px;
+        color: $white;
+      }
+      .tagline-button {
+        background-color: $white;
+        color: $pinkish;
       }
     }
   }
 
-  #wicked .tagline-box {
-    padding: 0 25%;
-    text-align: center;
-    .tagline {
+  #pen-heading {
+    overflow: hidden;
+  }
+
+  #rush {
+    #rush-heading {
+      font-size: 1.8rem;
+      padding-top: 5px;
+    }
+
+    #rush-oneliner {
+      font-size: 0.9rem;
+      padding: 0 60px;
+      color: $grey;
+    }
+
+    #rush-button {
+      background-color: $purple;
+      color: white;
+      margin-right: 170px;
       margin-bottom: 10px;
-      font-size: 2rem;
     }
-    .oneliner {
-      margin: 20px 0px;
-      padding: 0 100px;
-      color: $white;
+
+    #rush-btn-tags {
+      margin-left: 2px;
+      font-size: 0.9rem;
+      color: $grey;
     }
-    .tagline-button {
-      background-color: $white;
-      color: $pinkish;
-    }
+  }
+
+  #watch-heading > .w-box > .c-box{
+    padding: 85px 45px 50px 140px;
   }
 }

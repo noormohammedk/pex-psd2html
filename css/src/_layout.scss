@@ -19,7 +19,6 @@ body {
 
   #fantastic {
     background-color: $dark-grey;
-    color: $white;
     padding:50px 0;
     padding-bottom: 120px;
   }
@@ -30,9 +29,10 @@ body {
 
   #wicked {
     background-image: url(../../images/pex2.jpg);
-    padding-top: 90px;
-    text-align: center;
-    color: $white;
+  }
+
+  #pen-heading {
+
   }
 
   #rush {
@@ -40,8 +40,7 @@ body {
   }
 
   #watch-heading {
-    float:left;
-    clear: both;
+
   }
 
   #photography {
