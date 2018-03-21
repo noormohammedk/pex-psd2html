@@ -27,7 +27,7 @@ body .backgroundimage-sections {
 body .noimage-sections {
   padding: 20px; }
 body #eyeballs {
-  background-image: url(../../images/pex.jpg);
+  background-image: url(../images/pex.jpg);
   height: 51vw; }
 body #fantastic {
   background-color: #313b50;
@@ -36,11 +36,11 @@ body #fantastic {
 body #curve {
   height: 40px; }
 body #wicked {
-  background-image: url(../../images/pex2.jpg); }
+  background-image: url(../images/pex2.jpg); }
 body #rush {
-  background-image: url(../../images/pex4.png); }
+  background-image: url(../images/pex4.png); }
 body #photography {
-  background-image: url(../../images/pex6.png); }
+  background-image: url(../images/pex6.png); }
 
 body .no-padding {
   padding: 0; }
