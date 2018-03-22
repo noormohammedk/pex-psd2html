@@ -24,8 +24,8 @@ body .backgroundimage-sections {
   background-repeat: no-repeat;
   background-position: center;
   height: 445px; }
-body .noimage-sections {
-  padding: 20px; }
+body .break-overflow {
+  overflow: hidden; }
 body #eyeballs {
   background-image: url(../images/pex.jpg);
   height: 51vw; }
@@ -34,13 +34,20 @@ body #fantastic {
   padding: 50px 0;
   padding-bottom: 120px; }
 body #curve {
-  height: 40px; }
+  height: 40px;
+  background-color: #d5cad5; }
 body #wicked {
   background-image: url(../images/pex2.jpg); }
 body #rush {
   background-image: url(../images/pex4.png); }
 body #photography {
   background-image: url(../images/pex6.png); }
+body #get-in-touch.noimage-sections {
+  padding: 50px 20px 150px 20px; }
+  body #get-in-touch.noimage-sections .content {
+    width: 30%; }
+body #foot-note {
+  padding: 30px 20px 150px 20px; }
 
 body .no-padding {
   padding: 0; }
@@ -156,5 +163,14 @@ body #rush #rush-btn-tags {
   color: #d5cad5; }
 body #watch-heading > .w-box > .c-box {
   padding: 85px 45px 50px 140px; }
+body #get-in-touch {
+  background-color: #ff3668;
+  color: #fff; }
+  body #get-in-touch h5 {
+    font-weight: bolder; }
+body #foot-note {
+  background-color: #313b50;
+  color: #d5cad5;
+  font-size: 0.6rem; }
 
 /*# sourceMappingURL=styles.css.map */

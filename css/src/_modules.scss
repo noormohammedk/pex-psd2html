@@ -2,7 +2,7 @@
 
 body {
 
-   .no-padding {
+   .no-padding { //was applied to remove bootstrap padding for images
      padding: 0;
    }
 
@@ -171,5 +171,19 @@ body {
 
   #watch-heading > .w-box > .c-box{
     padding: 85px 45px 50px 140px;
+  }
+
+  #get-in-touch {
+    background-color: $pinkish;
+    color: $white;
+    & h5 {
+      font-weight: bolder;
+    }
+  }
+
+  #foot-note {
+    background-color: $dark-grey;
+    color: $grey;
+    font-size: 0.6rem;
   }
 }

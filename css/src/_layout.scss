@@ -1,5 +1,4 @@
 body {
-
   .backgroundimage-sections {
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,8 +6,8 @@ body {
     height:445px;
   }
 
-  .noimage-sections {
-    padding: 20px;
+  .break-overflow {
+    overflow: hidden;
   }
 
   #eyeballs {
@@ -25,6 +24,7 @@ body {
 
   #curve {
     height: 40px;
+    background-color: $grey;
   }
 
   #wicked {
@@ -46,4 +46,16 @@ body {
   #photography {
     background-image: url(../images/pex6.png);
   }
+
+  #get-in-touch.noimage-sections {
+    padding: 50px 20px 150px 20px;
+    .content {
+      width: 30%;
+    }
+  }
+
+  #foot-note {
+    padding: 30px 20px 150px 20px;
+  }
+
 }
