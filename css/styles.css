@@ -20,18 +20,16 @@ html {
       padding: 10px 0; }
 
 body .backgroundimage-sections {
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 445px; }
+  background-size: contain; }
 body .break-overflow {
   overflow: hidden; }
 body #eyeballs {
   background-image: url(../images/pex.jpg);
   height: 57vw; }
 body #fantastic {
+  box-sizing: border-box;
   background-color: #313b50;
-  padding: 50px 0;
   padding-bottom: 120px; }
 body #curve {
   height: 40px;
@@ -142,8 +140,6 @@ body #eyeballs {
       outline: none;
       border: none;
       font: normal normal 400 0.9rem "Noto Sans", sans-serif; }
-body #pen-heading {
-  overflow: hidden; }
 body #rush #rush-heading {
   font-size: 1.8rem;
   padding-top: 5px; }

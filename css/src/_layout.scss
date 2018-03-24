@@ -1,10 +1,8 @@
 body {
   .backgroundimage-sections {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:445px;
-  }
+   background-repeat: no-repeat;
+   background-size: contain;
+}
 
   .break-overflow {
     overflow: hidden;
@@ -17,10 +15,11 @@ body {
 
 
   #fantastic {
+    box-sizing: border-box;
     background-color: $dark-grey;
-    padding:50px 0;
     padding-bottom: 120px;
   }
+
 
   #curve {
     height: 40px;
@@ -29,10 +28,6 @@ body {
 
   #wicked {
     background-image: url(../images/pex2.jpg);
-  }
-
-  #pen-heading {
-
   }
 
   #rush {
