@@ -21,7 +21,8 @@ html {
 
 body .backgroundimage-sections {
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: auto;
+  height: 32vw; }
 body .break-overflow {
   overflow: hidden; }
 body #eyeballs {
