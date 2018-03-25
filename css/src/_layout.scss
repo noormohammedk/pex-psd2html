@@ -1,5 +1,7 @@
 body {
+
   .backgroundimage-sections {
+   padding: 0; 
    background-repeat: no-repeat;
    background-size: auto;
    height: 32vw;
@@ -18,25 +20,24 @@ body {
   #fantastic {
     box-sizing: border-box;
     background-color: $dark-grey;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
   }
 
 
   #curve {
-    height: 40px;
-    background-color: $grey;
+    #svg {
+      margin-top: -1px;
+      margin-left: 33.333333333%;
+    }
   }
 
   #wicked {
+    margin-top: -88px;
     background-image: url(../images/pex2.jpg);
   }
 
   #rush {
     background-image: url(../images/pex4.png);
-  }
-
-  #watch-heading {
-
   }
 
   #photography {

@@ -20,6 +20,7 @@ html {
       padding: 10px 0; }
 
 body .backgroundimage-sections {
+  padding: 0;
   background-repeat: no-repeat;
   background-size: auto;
   height: 32vw; }
@@ -31,11 +32,12 @@ body #eyeballs {
 body #fantastic {
   box-sizing: border-box;
   background-color: #313b50;
-  padding-bottom: 120px; }
-body #curve {
-  height: 40px;
-  background-color: #d5cad5; }
+  padding-bottom: 110px; }
+body #curve #svg {
+  margin-top: -1px;
+  margin-left: 33.333333333%; }
 body #wicked {
+  margin-top: -88px;
   background-image: url(../images/pex2.jpg); }
 body #rush {
   background-image: url(../images/pex4.png); }
