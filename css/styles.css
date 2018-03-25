@@ -22,7 +22,7 @@ html {
 body .backgroundimage-sections {
   padding: 0;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   height: 32vw; }
 body .break-overflow {
   overflow: hidden; }
