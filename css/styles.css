@@ -12,6 +12,8 @@ html {
       font-size: 2.4rem; }
     html body a {
       text-decoration: none; }
+    html body a:hover {
+      text-decoration: none; }
     html body input {
       font-size: 1rem;
       font-weight: bold;
@@ -27,7 +29,7 @@ body .backgroundimage-sections {
 body .break-overflow {
   overflow: hidden; }
 body #eyeballs {
-  background-image: url(../images/pex.jpg);
+  background-image: url(../images/pex0.jpeg);
   height: 57vw; }
 body #fantastic {
   box-sizing: border-box;
@@ -74,9 +76,9 @@ body .tagline-box {
   body .tagline-box .oneliner {
     line-height: 20px;
     color: #d5cad5;
-    font-size: 0.63rem;
-    font-weight: bold;
-    padding-right: 30px;
+    font-size: 0.73rem;
+    font-weight: 400;
+    padding-right: 25px;
     margin-top: 7px; }
 body .noimage-sections {
   color: #fff;
@@ -116,13 +118,14 @@ body .backgroundimage-sections {
       background-color: #fff;
       color: #ff3668; }
 body #eyeballs {
-  margin-top: -90px; }
+  margin-top: -90px;
+  margin-bottom: 50px; }
   body #eyeballs .nav-transparent {
     background-color: rgba(0, 0, 0, 0);
-    border: 0 solid #fff;
+    border: 0 solid #d5cad5;
     border-bottom-width: 1px;
     border-radius: 3px;
-    border-color: white;
+    border-color: #d5cad5;
     border-radius: 0; }
     body #eyeballs .nav-transparent .navbar-header a {
       display: block;
@@ -137,7 +140,7 @@ body #eyeballs {
         top: 15px; }
     body #eyeballs .nav-transparent .nav-menu {
       font: normal normal bold 1rem "Noto Sans", sans-serif;
-      color: #fff; }
+      color: #d5cad5; }
     body #eyeballs .nav-transparent input {
       padding: 5px 0 5px 10px;
       margin-top: 13px;
